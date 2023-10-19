@@ -10,6 +10,9 @@ h2{
     text-align: center;
     margin-bottom: 7px; 
 }
+.story_display{
+    width:100%;
+}
 .title_description{
     z-index: 2;
     margin: 10px 5% 15px 5%;
@@ -19,23 +22,60 @@ h2{
     line-height: 1.45em;
 
 }
-
+.story_title{
+    text-align: center;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+.story_title_block{
+    padding-top:10px;
+    text-align: center;
+    font-weight: 20px;
+    width:100%;
+    height:20px;
+}
 .story_block {
     display: inline-block;
     width: 200px;
     height: 200px;
-    background-color: lightgray;
+    background-color: white;
+    border-width:1px;
+    border-color:blue;
+    border-style: dashed;
+    text-align: center;
+}
+.author_credit_display{
+    font-size:10px;
+    font-weight: bold;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+}
+.story_summary_display{
+    font-size:10px;
+    font-weight: italic;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+}
+.author_credit_display_block {
+    padding-top: 10px;
+    width:100%;
+    height:20px;
+}
+.story_summary_display_block{
+
+    width:100%;
+    height:20px;
 }
 .story_display_container  {
     text-align: center;
 }
 
 .story_img{
-    width: 50px;
-    height:50px;
+    width: 100px;
+    height:100px;
 }
 .story_block:hover {
-    background-color: darkgray;
+    background-color: lightblue;
 }
 a {
     text-decoration: none;
