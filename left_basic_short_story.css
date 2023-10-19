@@ -25,7 +25,7 @@ h2 {
     width: 70%;
     margin: 0px auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: left;
   }
   
   /* Set display preferences for poem. */
