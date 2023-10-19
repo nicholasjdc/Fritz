@@ -12,4 +12,5 @@ Journal
     - Get Submissions for first edition
         - Advertise on Reddit
         - Reach out to Columbia(?)
+    - Upload all unpublished stories
     
