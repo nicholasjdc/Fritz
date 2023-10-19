@@ -2,6 +2,7 @@ Tech
     - Make "Magazines" and "Stories" clickable (Feature)
     - Implement Audio (Feature)
     - Make submissions Form on website (Prettify, Feature)
+    - CENTER NAV BAR (Prettify)
 Design
     - Decide on some images to put up
     - Make top of page more interesting
