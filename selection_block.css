@@ -1,0 +1,50 @@
+h1{
+    z-index: 1;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 10px;
+}
+h2{
+    z-index: 1;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+    text-align: center;
+    margin-bottom: 7px; 
+}
+.title_description{
+    z-index: 2;
+    margin: 10px 5% 15px 5%;
+    font-family: 'Gotham', 'Montserrat', sans-serif;
+    font-size: 12px;
+    text-align: center;
+    line-height: 1.45em;
+
+}
+
+.story_block {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    background-color: lightgray;
+}
+.story_display_container  {
+    text-align: center;
+}
+
+.story_img{
+    width: 50px;
+    height:50px;
+}
+.story_block:hover {
+    background-color: darkgray;
+}
+a {
+    text-decoration: none;
+}
+
+a:link, a:visited {
+    color:black
+}
+
+a:hover {
+    color: red;
+}
