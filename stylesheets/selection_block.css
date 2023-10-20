@@ -108,11 +108,11 @@ a:hover {
     align-items: center;
 }
 .nav_block{
-    width:5px;
-    height:15px
+    
 }
 .nav_text{
     font-family:'Times New Roman', Times, serif;
     font-size:20px;
     font-style: italic;
+    
 }
