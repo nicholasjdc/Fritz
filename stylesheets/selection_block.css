@@ -27,6 +27,7 @@ h2{
     font-family: 'Gotham', 'Montserrat', sans-serif;
     font-size: 15px;
     font-weight: bold;
+    color: black;
     
 }
 .story_title_block{
@@ -41,7 +42,7 @@ h2{
     width: 200px;
     height: 200px;
     background-color: white;
-    border-width:1px;
+    border-width:5px;
     border-color:blue;
     border-style: dashed;
     text-align: center;
