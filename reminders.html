@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sign Up for Text Reminders</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+        .container { max-width: 400px; margin: auto; background: #fff; padding: 2em; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+        h1 { text-align: center; }
+        label { display: block; margin-top: 1em; }
+        input[type="text"], input[type="tel"], input[type="email"] {
+            width: 100%; padding: 0.5em; margin-top: 0.5em; border: 1px solid #ccc; border-radius: 4px;
+        }
+        .consent { margin-top: 1em; }
+        button { margin-top: 1.5em; width: 100%; padding: 0.75em; background: #0078d4; color: #fff; border: none; border-radius: 4px; font-size: 1em; }
+        button:hover { background: #005fa3; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Text Reminder Sign Up</h1>
+        <form>
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="phone">Mobile Number</label>
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10,15}" required placeholder="e.g. 1234567890">
+
+            <label for="email">Email (optional)</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com">
+
+            <div class="consent">
+                <input type="checkbox" id="consent" name="consent" required>
+                <label for="consent">
+                    I consent to receive text message reminders about selected events. Message and data rates may apply. I understand I can opt out at any time.
+                </label>
+            </div>
+
+            <button type="submit">Sign Up</button>
+        </form>
+    </div>
+</body>
+</html>
